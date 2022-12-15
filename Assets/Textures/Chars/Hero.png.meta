@@ -1,0 +1,2408 @@
+fileFormatVersion: 2
+guid: 4af921fc199555b4e83c986e316a1af4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6146700129834819302
+    second: Hero_0
+  - first:
+      213: 9138555137054584332
+    second: Hero_1
+  - first:
+      213: 2632276121321243838
+    second: Hero_2
+  - first:
+      213: 2805043176163793281
+    second: Hero_3
+  - first:
+      213: 3530003579022248241
+    second: Hero_4
+  - first:
+      213: 8960899199633546546
+    second: Hero_5
+  - first:
+      213: 1635744749237841209
+    second: Hero_6
+  - first:
+      213: 4360131077223874234
+    second: Hero_7
+  - first:
+      213: -3687602496079464652
+    second: Hero_8
+  - first:
+      213: -2142791582941521445
+    second: Hero_9
+  - first:
+      213: 7018385267601350384
+    second: Hero_10
+  - first:
+      213: 1917320343087086255
+    second: Hero_11
+  - first:
+      213: -6089189685315772502
+    second: Hero_12
+  - first:
+      213: -314675951565558864
+    second: Hero_13
+  - first:
+      213: -5800700536808373965
+    second: Hero_14
+  - first:
+      213: -3983798310479679007
+    second: Hero_15
+  - first:
+      213: -9014295782854626241
+    second: Hero_16
+  - first:
+      213: -7067365077701195739
+    second: Hero_17
+  - first:
+      213: -5991450931309886240
+    second: Hero_18
+  - first:
+      213: -6060876265418842428
+    second: Hero_19
+  - first:
+      213: -2907588548364164451
+    second: Hero_20
+  - first:
+      213: -354585906375729080
+    second: Hero_21
+  - first:
+      213: -2424968931422420723
+    second: Hero_22
+  - first:
+      213: 552900063559834478
+    second: Hero_23
+  - first:
+      213: 2294949204960916495
+    second: Hero_24
+  - first:
+      213: 2776209665653643088
+    second: Hero_25
+  - first:
+      213: -1910980653693743081
+    second: Hero_26
+  - first:
+      213: 2382439291522176088
+    second: Hero_27
+  - first:
+      213: 7797690872389585371
+    second: Hero_28
+  - first:
+      213: 847356742481223136
+    second: Hero_29
+  - first:
+      213: 8078218461702098748
+    second: Hero_30
+  - first:
+      213: -1149029613571509917
+    second: Hero_31
+  - first:
+      213: -2795223897453537613
+    second: Hero_32
+  - first:
+      213: 3880623526851715865
+    second: Hero_33
+  - first:
+      213: -7045202169978999449
+    second: Hero_34
+  - first:
+      213: 55406406312410805
+    second: Hero_35
+  - first:
+      213: -7849989574039795051
+    second: Hero_36
+  - first:
+      213: 1154780279644653340
+    second: Hero_37
+  - first:
+      213: 1224011524597243893
+    second: Hero_38
+  - first:
+      213: -1085665774172748778
+    second: Hero_39
+  - first:
+      213: 8045183362265990936
+    second: Hero_40
+  - first:
+      213: 2334970979592392054
+    second: Hero_41
+  - first:
+      213: -1725675626914160889
+    second: Hero_42
+  - first:
+      213: -751274192597405885
+    second: Hero_43
+  - first:
+      213: 6709553744214812889
+    second: Hero_44
+  - first:
+      213: -3828335036662933036
+    second: Hero_45
+  - first:
+      213: 4952226228288142560
+    second: Hero_46
+  - first:
+      213: -5231863876325446303
+    second: Hero_47
+  - first:
+      213: 8368634307357178278
+    second: Hero_48
+  - first:
+      213: -5203290255101307035
+    second: Hero_49
+  - first:
+      213: 3963815794699681981
+    second: Hero_50
+  - first:
+      213: 8749925312163004587
+    second: Hero_51
+  - first:
+      213: -6753996123248538086
+    second: Hero_52
+  - first:
+      213: 5674094882433087531
+    second: Hero_53
+  - first:
+      213: 4426956675964379330
+    second: Hero_54
+  - first:
+      213: 2291639811742789703
+    second: Hero_55
+  - first:
+      213: 8923347492909174897
+    second: Hero_56
+  - first:
+      213: 1342995146042546290
+    second: Hero_57
+  - first:
+      213: -4380938471305668691
+    second: Hero_58
+  - first:
+      213: -544043086255237616
+    second: Hero_59
+  - first:
+      213: -1150433112778264962
+    second: Hero_60
+  - first:
+      213: -7582668898432529916
+    second: Hero_61
+  - first:
+      213: -2544492295783131534
+    second: Hero_62
+  - first:
+      213: 1146549150833317834
+    second: Hero_63
+  - first:
+      213: 943101498581847061
+    second: Hero_64
+  - first:
+      213: 249442597927421140
+    second: Hero_65
+  - first:
+      213: 8733007742791403254
+    second: Hero_66
+  - first:
+      213: -1974434170711392528
+    second: Hero_67
+  - first:
+      213: 3870484211844335863
+    second: Hero_68
+  - first:
+      213: -8810893914738508114
+    second: Hero_69
+  - first:
+      213: -5517387215346931401
+    second: Hero_70
+  - first:
+      213: 1926047316570038788
+    second: Hero_71
+  - first:
+      213: 3905183754520663018
+    second: Hero_72
+  - first:
+      213: 6403755858331259886
+    second: Hero_73
+  - first:
+      213: 4496858338572335411
+    second: Hero_74
+  - first:
+      213: -7035418060368501327
+    second: Hero_75
+  - first:
+      213: 3176624687239682667
+    second: Hero_76
+  - first:
+      213: -7079883667954865306
+    second: Hero_77
+  - first:
+      213: 8047574043054145289
+    second: Hero_78
+  - first:
+      213: 6142690604390448830
+    second: Hero_79
+  - first:
+      213: -5123682608355318674
+    second: Hero_80
+  - first:
+      213: 7333170760397116166
+    second: Hero_81
+  - first:
+      213: -2917641530261784274
+    second: Hero_82
+  - first:
+      213: -1055685490941125173
+    second: Hero_83
+  - first:
+      213: -5686568956464163200
+    second: Hero_84
+  - first:
+      213: -3225350306485970095
+    second: Hero_85
+  - first:
+      213: -6339623625854472375
+    second: Hero_86
+  - first:
+      213: 79674282232957310
+    second: Hero_87
+  - first:
+      213: -7995531587393980640
+    second: Hero_88
+  - first:
+      213: -7292347983622408094
+    second: Hero_89
+  - first:
+      213: -8708855174292736821
+    second: Hero_90
+  - first:
+      213: -4840795102313982530
+    second: Hero_91
+  - first:
+      213: -1390009832805268900
+    second: Hero_92
+  - first:
+      213: 2349330207783365556
+    second: Hero_93
+  - first:
+      213: 2330864968837015640
+    second: Hero_94
+  - first:
+      213: -871494918974997971
+    second: Hero_95
+  - first:
+      213: -2732322938708158135
+    second: Hero_96
+  - first:
+      213: -4010887209081723449
+    second: Hero_97
+  - first:
+      213: -6375799108693961390
+    second: Hero_98
+  - first:
+      213: -4571393297468401041
+    second: Hero_99
+  - first:
+      213: -3974040777778118581
+    second: Hero_100
+  - first:
+      213: 1253151624071700863
+    second: Hero_101
+  - first:
+      213: 6603777006035324693
+    second: Hero_102
+  - first:
+      213: 6947664511215101343
+    second: Hero_103
+  - first:
+      213: 5625552400041227188
+    second: Hero_104
+  - first:
+      213: -7398468760652988661
+    second: Hero_105
+  - first:
+      213: 7422053281899786270
+    second: Hero_106
+  - first:
+      213: -5746077488117118900
+    second: Hero_107
+  - first:
+      213: -7768862846743008732
+    second: Hero_108
+  - first:
+      213: 7857987911342911198
+    second: Hero_109
+  - first:
+      213: 5689253330040348743
+    second: Hero_110
+  - first:
+      213: 5219226886446135404
+    second: Hero_111
+  - first:
+      213: 3894627531007126091
+    second: Hero_112
+  - first:
+      213: -7102211055322401936
+    second: Hero_113
+  - first:
+      213: -1194599094585301695
+    second: Hero_114
+  - first:
+      213: 5345795788239527073
+    second: Hero_115
+  - first:
+      213: 3188342500249437558
+    second: Hero_116
+  - first:
+      213: 8599917653804839110
+    second: Hero_117
+  - first:
+      213: 2102104687922977828
+    second: Hero_118
+  - first:
+      213: -3884999916353623929
+    second: Hero_119
+  - first:
+      213: -3698629641912978513
+    second: Hero_120
+  - first:
+      213: -3745811611414845446
+    second: Hero_121
+  - first:
+      213: -1211196398150779174
+    second: Hero_122
+  - first:
+      213: 5064873679621939129
+    second: Hero_123
+  - first:
+      213: 4124048443579691366
+    second: Hero_124
+  - first:
+      213: -392730434491122657
+    second: Hero_125
+  - first:
+      213: -7234082719392876252
+    second: Hero_126
+  - first:
+      213: 7392841683694991641
+    second: Hero_127
+  - first:
+      213: 5059965553082564003
+    second: Hero_128
+  - first:
+      213: -5065588944224332199
+    second: Hero_129
+  - first:
+      213: 3828450510419034234
+    second: Hero_130
+  - first:
+      213: 7151957656768796565
+    second: Hero_131
+  - first:
+      213: 1179282805874807278
+    second: Hero_132
+  - first:
+      213: -2356945372179229655
+    second: Hero_133
+  - first:
+      213: -4674844634722457266
+    second: Hero_134
+  - first:
+      213: -8857647207226001674
+    second: Hero_135
+  - first:
+      213: 6186286147509571645
+    second: Hero_136
+  - first:
+      213: 7886783040001285347
+    second: Hero_137
+  - first:
+      213: 5232156799272689372
+    second: Hero_138
+  - first:
+      213: -5059673749077931635
+    second: Hero_139
+  - first:
+      213: 3531818334950351610
+    second: Hero_140
+  - first:
+      213: -7102742941450740743
+    second: Hero_141
+  - first:
+      213: 2704086467457065541
+    second: Hero_142
+  - first:
+      213: 5099343473470097257
+    second: Hero_143
+  - first:
+      213: 1996582904236341774
+    second: Hero_144
+  - first:
+      213: -1881371861446566290
+    second: Hero_145
+  - first:
+      213: -2886191679266765515
+    second: Hero_146
+  - first:
+      213: -6953945087095357211
+    second: Hero_147
+  - first:
+      213: -5494445191043729142
+    second: Hero_148
+  - first:
+      213: 7247491575551731783
+    second: Hero_149
+  - first:
+      213: 3260172864201813496
+    second: Hero_150
+  - first:
+      213: 2908227430915312713
+    second: Hero_151
+  - first:
+      213: -4721479357947456714
+    second: Hero_152
+  - first:
+      213: -8143940247563972306
+    second: Hero_153
+  - first:
+      213: -5839223887541306721
+    second: Hero_154
+  - first:
+      213: -1417764700804909235
+    second: Hero_155
+  - first:
+      213: -6186434968480792508
+    second: Hero_156
+  - first:
+      213: -8089685516444493386
+    second: Hero_157
+  - first:
+      213: 3016976451918199531
+    second: Hero_158
+  - first:
+      213: 246904455615283651
+    second: Hero_159
+  - first:
+      213: -5475968417515178382
+    second: Hero_160
+  - first:
+      213: -2088034790695211050
+    second: Hero_161
+  - first:
+      213: 6935933132522177366
+    second: Hero_162
+  - first:
+      213: -6038187824040571271
+    second: Hero_163
+  - first:
+      213: 5045626651387009452
+    second: Hero_164
+  - first:
+      213: -4844542262763555662
+    second: Hero_165
+  - first:
+      213: 727574758387340657
+    second: Hero_166
+  - first:
+      213: 586085604365454576
+    second: Hero_167
+  - first:
+      213: -2121099306688290055
+    second: Hero_168
+  - first:
+      213: -2435476849191910458
+    second: Hero_169
+  - first:
+      213: 7963968303455774320
+    second: Hero_170
+  - first:
+      213: 6548903612431081448
+    second: Hero_171
+  - first:
+      213: 7029359576418929566
+    second: Hero_172
+  - first:
+      213: 2246311934627536
+    second: Hero_173
+  - first:
+      213: -5682771776013193827
+    second: Hero_174
+  - first:
+      213: 2832432802415869943
+    second: Hero_175
+  - first:
+      213: -8290528886705214719
+    second: Hero_176
+  - first:
+      213: 6947106443053888687
+    second: Hero_177
+  - first:
+      213: -8783760138358567864
+    second: Hero_178
+  - first:
+      213: -4415066132554338689
+    second: Hero_179
+  - first:
+      213: 2654840616933750207
+    second: Hero_180
+  - first:
+      213: 8592673503384024692
+    second: Hero_181
+  - first:
+      213: 5898120843107003756
+    second: Hero_182
+  - first:
+      213: -8849861296985802594
+    second: Hero_183
+  - first:
+      213: -5355882668456219435
+    second: Hero_184
+  - first:
+      213: -5934637040545271855
+    second: Hero_185
+  - first:
+      213: -729486094725651190
+    second: Hero_186
+  - first:
+      213: -8863292191491867218
+    second: Hero_187
+  - first:
+      213: 352638996846177483
+    second: Hero_188
+  - first:
+      213: -2319582680048380924
+    second: Hero_189
+  - first:
+      213: 1759174810207266538
+    second: Hero_190
+  - first:
+      213: -1107030998202933741
+    second: Hero_191
+  - first:
+      213: 5943650517266828944
+    second: Hero_192
+  - first:
+      213: -5832931380189152155
+    second: Hero_193
+  - first:
+      213: -6910490336913400565
+    second: Hero_194
+  - first:
+      213: 4450982180534930641
+    second: Hero_195
+  - first:
+      213: 9206280996407144538
+    second: Hero_196
+  - first:
+      213: 2359739413527106410
+    second: Hero_197
+  - first:
+      213: 2444846046929094192
+    second: Hero_198
+  - first:
+      213: 4517630338607867064
+    second: Hero_199
+  - first:
+      213: -1112156289612233424
+    second: Hero_200
+  - first:
+      213: -7301612070085112184
+    second: Hero_201
+  - first:
+      213: -6344413850470629807
+    second: Hero_202
+  - first:
+      213: 4132098304002376208
+    second: Hero_203
+  - first:
+      213: 3115869809634846817
+    second: Hero_204
+  - first:
+      213: 4443460373713640147
+    second: Hero_205
+  - first:
+      213: 7699601908990546118
+    second: Hero_206
+  - first:
+      213: 6791442743931220845
+    second: Hero_207
+  - first:
+      213: 6128231984749943507
+    second: Hero_208
+  - first:
+      213: 4315616980818176917
+    second: Hero_209
+  - first:
+      213: 4387031425148413370
+    second: Hero_210
+  - first:
+      213: 8212075670487177738
+    second: Hero_211
+  - first:
+      213: -1527960810820419936
+    second: Hero_212
+  - first:
+      213: 142434063775557403
+    second: Hero_213
+  - first:
+      213: 4313618239958518754
+    second: Hero_214
+  - first:
+      213: -6098730848551255406
+    second: Hero_215
+  - first:
+      213: 5847384723612515466
+    second: Hero_216
+  - first:
+      213: 1617660442803987560
+    second: Hero_217
+  - first:
+      213: 1848198234256713676
+    second: Hero_218
+  - first:
+      213: -4355218189216490949
+    second: Hero_219
+  - first:
+      213: 4835687572484612805
+    second: Hero_220
+  - first:
+      213: -6377799129059502748
+    second: Hero_221
+  - first:
+      213: 8149127599968364947
+    second: Hero_222
+  - first:
+      213: -4806528103302593219
+    second: Hero_223
+  - first:
+      213: -6399036289932023263
+    second: Hero_224
+  - first:
+      213: -3532684698219503240
+    second: Hero_225
+  - first:
+      213: -7440000954361835670
+    second: Hero_226
+  - first:
+      213: -6483685461822526013
+    second: Hero_227
+  - first:
+      213: -5612512972319319263
+    second: Hero_228
+  - first:
+      213: -4009811299854843692
+    second: Hero_229
+  - first:
+      213: 6854062215659083779
+    second: Hero_230
+  - first:
+      213: 7854422528658974220
+    second: Hero_231
+  - first:
+      213: -5366685696006957102
+    second: Hero_232
+  - first:
+      213: 8063326386080193927
+    second: Hero_233
+  - first:
+      213: 3947994663463617282
+    second: Hero_234
+  - first:
+      213: -530861931001673489
+    second: Hero_235
+  - first:
+      213: -5744025434467806506
+    second: Hero_236
+  - first:
+      213: 2271330405739364375
+    second: Hero_237
+  - first:
+      213: 701123851834577876
+    second: Hero_238
+  - first:
+      213: 7486728564970023477
+    second: Hero_239
+  - first:
+      213: -1095789841179900989
+    second: Hero_240
+  - first:
+      213: 7622257211782440841
+    second: Hero_241
+  - first:
+      213: 6225325029555004871
+    second: Hero_242
+  - first:
+      213: 1472516628196000207
+    second: Hero_243
+  - first:
+      213: -418768570876349023
+    second: Hero_244
+  - first:
+      213: 8242481415851215137
+    second: Hero_245
+  - first:
+      213: 7803697228993200560
+    second: Hero_246
+  - first:
+      213: -7051534610676413829
+    second: Hero_247
+  - first:
+      213: -8564335469310544698
+    second: Hero_248
+  - first:
+      213: 2200215116362457017
+    second: Hero_249
+  - first:
+      213: -82453273730340244
+    second: Hero_250
+  - first:
+      213: -6534221326936427974
+    second: Hero_251
+  - first:
+      213: 3354205189450210296
+    second: Hero_252
+  - first:
+      213: -3317488204365168265
+    second: Hero_253
+  - first:
+      213: 2462767855534748898
+    second: Hero_254
+  - first:
+      213: 7668348465201375583
+    second: Hero_255
+  - first:
+      213: 8364827029219008020
+    second: Hero_256
+  - first:
+      213: -8121102166956640155
+    second: Hero_257
+  - first:
+      213: -8751368768163471113
+    second: Hero_258
+  - first:
+      213: -8871536017662831421
+    second: Hero_259
+  - first:
+      213: -5890478395858183058
+    second: Hero_260
+  - first:
+      213: 1340301232404453386
+    second: Hero_261
+  - first:
+      213: 2764168678101124721
+    second: Hero_262
+  - first:
+      213: -1260103851554832400
+    second: Hero_263
+  - first:
+      213: -32486952423992361
+    second: Hero_264
+  - first:
+      213: -8791839197602797330
+    second: Hero_265
+  - first:
+      213: -4203163169806016239
+    second: Hero_266
+  - first:
+      213: 4712051262919477800
+    second: Hero_267
+  - first:
+      213: 3532893715548962497
+    second: Hero_268
+  - first:
+      213: -8187663204897188586
+    second: Hero_269
+  - first:
+      213: 4687037081914128667
+    second: Hero_270
+  - first:
+      213: -4029575929751216484
+    second: Hero_271
+  - first:
+      213: -1935394993380977015
+    second: Hero_272
+  - first:
+      213: -622867988495445922
+    second: Hero_273
+  - first:
+      213: 3550962917894964675
+    second: Hero_274
+  - first:
+      213: -7860164026353119782
+    second: Hero_275
+  - first:
+      213: 5783449783252413131
+    second: Hero_276
+  - first:
+      213: -1497974941914661765
+    second: Hero_277
+  - first:
+      213: -7541375097648065645
+    second: Hero_278
+  - first:
+      213: -8669733836699234144
+    second: Hero_279
+  - first:
+      213: 6368815714729413303
+    second: Hero_280
+  - first:
+      213: -2702666213531278212
+    second: Hero_281
+  - first:
+      213: 4116772995156274718
+    second: Hero_282
+  - first:
+      213: 1084375383900446919
+    second: Hero_283
+  - first:
+      213: 4834403516139986611
+    second: Hero_284
+  - first:
+      213: -7254686748612367102
+    second: Hero_285
+  - first:
+      213: -8329815672434490329
+    second: Hero_286
+  - first:
+      213: -3655294879384675068
+    second: Hero_287
+  - first:
+      213: -3506195278656049487
+    second: Hero_288
+  - first:
+      213: -7653801683229921820
+    second: Hero_289
+  - first:
+      213: 7613432643348164628
+    second: Hero_290
+  - first:
+      213: 4081257125603954284
+    second: Hero_291
+  - first:
+      213: 1283497869697480196
+    second: Hero_292
+  - first:
+      213: -2670007573100036356
+    second: Hero_293
+  - first:
+      213: 632079481788743713
+    second: Hero_294
+  - first:
+      213: 383754155016912316
+    second: Hero_295
+  - first:
+      213: 3340055223656319676
+    second: Hero_296
+  - first:
+      213: -5710281456704110078
+    second: Hero_297
+  - first:
+      213: -4270436086492168644
+    second: Hero_298
+  - first:
+      213: -5651588365368245025
+    second: Hero_299
+  - first:
+      213: -168816441715230382
+    second: Hero_300
+  - first:
+      213: 2730698766741888202
+    second: Hero_301
+  - first:
+      213: -430245676722975828
+    second: Hero_302
+  - first:
+      213: 3219031720225656877
+    second: Hero_303
+  - first:
+      213: -8218975467296643586
+    second: Hero_304
+  - first:
+      213: 7252540276654125873
+    second: Hero_305
+  - first:
+      213: 5562635004616130666
+    second: Hero_306
+  - first:
+      213: 2445062242948211167
+    second: Hero_307
+  - first:
+      213: -8716734251251057230
+    second: Hero_308
+  - first:
+      213: 1268495383975222862
+    second: Hero_309
+  - first:
+      213: 175297006320050644
+    second: Hero_310
+  - first:
+      213: -7412355216758650730
+    second: Hero_311
+  - first:
+      213: 8139696451913906364
+    second: Hero_312
+  - first:
+      213: 5295335509499286850
+    second: Hero_313
+  - first:
+      213: -600140850571589713
+    second: Hero_314
+  - first:
+      213: -3253862182326094996
+    second: Hero_315
+  - first:
+      213: 6445726669482497140
+    second: Hero_316
+  - first:
+      213: -8778308030734857811
+    second: Hero_317
+  - first:
+      213: 1569413193540607425
+    second: Hero_318
+  - first:
+      213: 745504095646054727
+    second: Hero_319
+  - first:
+      213: -645588115286267834
+    second: Hero_320
+  - first:
+      213: -8440492442742059554
+    second: Hero_321
+  - first:
+      213: 605432990244982123
+    second: Hero_322
+  - first:
+      213: -8541779843207254897
+    second: Hero_323
+  - first:
+      213: 3510109743558269747
+    second: Hero_324
+  - first:
+      213: 4971234510453213654
+    second: Hero_325
+  - first:
+      213: -3451679708160815373
+    second: Hero_326
+  - first:
+      213: 8509623683722890804
+    second: Hero_327
+  - first:
+      213: 3511311164027828572
+    second: Hero_328
+  - first:
+      213: 6571796486893515282
+    second: Hero_329
+  - first:
+      213: -1208733801086331002
+    second: Hero_330
+  - first:
+      213: -4195624142572737068
+    second: Hero_331
+  - first:
+      213: 2508706972472865815
+    second: Hero_332
+  - first:
+      213: -8987624030179492622
+    second: Hero_333
+  - first:
+      213: -2380358011387899195
+    second: Hero_334
+  - first:
+      213: 2405286279691529890
+    second: Hero_335
+  - first:
+      213: 2311890861657919524
+    second: Hero_336
+  - first:
+      213: -6727583263127647904
+    second: Hero_337
+  - first:
+      213: -6787410986129283082
+    second: Hero_338
+  - first:
+      213: -7550451327529590755
+    second: Hero_339
+  - first:
+      213: 12725452333733120
+    second: Hero_340
+  - first:
+      213: 3806989537986965897
+    second: Hero_341
+  - first:
+      213: -5667999758566628188
+    second: Hero_342
+  - first:
+      213: 1135707827695845433
+    second: Hero_343
+  - first:
+      213: 5653591689918118933
+    second: Hero_344
+  - first:
+      213: -7313300857093455882
+    second: Hero_345
+  - first:
+      213: 960861943758338502
+    second: Hero_346
+  - first:
+      213: 1844466187718449885
+    second: Hero_347
+  - first:
+      213: 5843096639932216701
+    second: Hero_348
+  - first:
+      213: -4865609970965859015
+    second: Hero_349
+  - first:
+      213: 8262672270404472413
+    second: Hero_350
+  - first:
+      213: 1840345615850819431
+    second: Hero_351
+  - first:
+      213: -7154654337873901578
+    second: Hero_352
+  - first:
+      213: -7436768756333424291
+    second: Hero_353
+  - first:
+      213: -4045206026627461385
+    second: Hero_354
+  - first:
+      213: -8667072200393640056
+    second: Hero_355
+  - first:
+      213: -4391407263447347642
+    second: Hero_356
+  - first:
+      213: 3338684607032125061
+    second: Hero_357
+  - first:
+      213: 2941024520114151642
+    second: Hero_358
+  - first:
+      213: 566030901596583880
+    second: Hero_359
+  - first:
+      213: 4718357151335376312
+    second: Hero_360
+  - first:
+      213: 8740840157572542435
+    second: Hero_361
+  - first:
+      213: -3665904299044791992
+    second: Hero_362
+  - first:
+      213: 1350149064611272461
+    second: Hero_363
+  - first:
+      213: 6936559223682739145
+    second: Hero_364
+  - first:
+      213: -5336005695067750266
+    second: Hero_365
+  - first:
+      213: 1695370929772295962
+    second: Hero_366
+  - first:
+      213: 8489580547127240845
+    second: Hero_367
+  - first:
+      213: 3356806476143731868
+    second: Hero_368
+  - first:
+      213: -1610001173126693755
+    second: Hero_369
+  - first:
+      213: 4495143768002536525
+    second: Hero_370
+  - first:
+      213: -7900077908111143721
+    second: Hero_371
+  - first:
+      213: 2570172260906826098
+    second: Hero_372
+  - first:
+      213: 2530608811957202861
+    second: Hero_373
+  - first:
+      213: 6827580810572065919
+    second: Hero_374
+  - first:
+      213: -1579636197026406185
+    second: Hero_375
+  - first:
+      213: -3217544253063218346
+    second: Hero_376
+  - first:
+      213: -6534384261969288764
+    second: Hero_377
+  - first:
+      213: 8385128843203203183
+    second: Hero_378
+  - first:
+      213: 1120056929912719209
+    second: Hero_379
+  - first:
+      213: 187654988012551818
+    second: Hero_380
+  - first:
+      213: -7814811856086070644
+    second: Hero_381
+  - first:
+      213: -3775497550923314852
+    second: Hero_382
+  - first:
+      213: -1815053907098356168
+    second: Hero_383
+  - first:
+      213: -6565354507548512793
+    second: Hero_384
+  - first:
+      213: -8400620800082788574
+    second: Hero_385
+  - first:
+      213: -8396757887334675108
+    second: Hero_386
+  - first:
+      213: -3468525979416490738
+    second: Hero_387
+  - first:
+      213: -7768216754249151452
+    second: Hero_388
+  - first:
+      213: 8439640715376904837
+    second: Hero_389
+  - first:
+      213: -8085662870340888480
+    second: Hero_390
+  - first:
+      213: 5893318482893118554
+    second: Hero_391
+  - first:
+      213: 6302891854198144550
+    second: Hero_392
+  - first:
+      213: -3007853247266811330
+    second: Hero_393
+  - first:
+      213: 6641181906986032751
+    second: Hero_394
+  - first:
+      213: 7770263906753039561
+    second: Hero_395
+  - first:
+      213: 4564814006884123477
+    second: Hero_396
+  - first:
+      213: 129661442727258950
+    second: Hero_397
+  - first:
+      213: 4391681228351739403
+    second: Hero_398
+  - first:
+      213: -384079567587571717
+    second: Hero_399
+  - first:
+      213: 6341279608349829685
+    second: Hero_400
+  - first:
+      213: 3246626685815228097
+    second: Hero_401
+  - first:
+      213: -8964801599623918414
+    second: Hero_402
+  - first:
+      213: 494559860659205479
+    second: Hero_403
+  - first:
+      213: 3088040019278910261
+    second: Hero_404
+  - first:
+      213: -2059537467328952056
+    second: Hero_405
+  - first:
+      213: 9113123418443938671
+    second: Hero_406
+  - first:
+      213: -6475884479148599498
+    second: Hero_407
+  - first:
+      213: -6307304757841561947
+    second: Hero_408
+  - first:
+      213: -7978845229578804446
+    second: Hero_409
+  - first:
+      213: 1304259701417132902
+    second: Hero_410
+  - first:
+      213: 5252467203954150371
+    second: Hero_411
+  - first:
+      213: -6654052387383592871
+    second: Hero_412
+  - first:
+      213: -7239399002863819734
+    second: Hero_413
+  - first:
+      213: -8055715985096886350
+    second: Hero_414
+  - first:
+      213: 3564859559046196536
+    second: Hero_415
+  - first:
+      213: 8106039809090573538
+    second: Hero_416
+  - first:
+      213: -7864119457908645940
+    second: Hero_417
+  - first:
+      213: 7479909024646439076
+    second: Hero_418
+  - first:
+      213: 8413450673393577660
+    second: Hero_419
+  - first:
+      213: -1110706384311502180
+    second: Hero_420
+  - first:
+      213: 4697013283191782570
+    second: Hero_421
+  - first:
+      213: 6475236025676147546
+    second: Hero_422
+  - first:
+      213: 4664154293271408275
+    second: Hero_423
+  - first:
+      213: -9162458292605322762
+    second: Hero_424
+  - first:
+      213: -2608611827777476025
+    second: Hero_425
+  - first:
+      213: -3568249780991217376
+    second: Hero_426
+  - first:
+      213: 3760092311536617723
+    second: Hero_427
+  - first:
+      213: -5276304442096326704
+    second: Hero_428
+  - first:
+      213: -8015552023479760227
+    second: Hero_429
+  - first:
+      213: -6797624154437974395
+    second: Hero_430
+  - first:
+      213: -7559099254580156410
+    second: Hero_431
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hero_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11295c6cc882baa0800000000000000
+      internalID: -6146700129834819302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ea570aa7ba2de70800000000000000
+      internalID: 9138555137054584332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4881a9f29b78420800000000000000
+      internalID: 2632276121321243838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18950ee28e38de620800000000000000
+      internalID: 2805043176163793281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1398a776d871df030800000000000000
+      internalID: 3530003579022248241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d5d3e58528b5c70800000000000000
+      internalID: 8960899199633546546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d2881de2553b610800000000000000
+      internalID: 1635744749237841209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abef1102d1c428c30800000000000000
+      internalID: 4360131077223874234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437f65c411103dcc0800000000000000
+      internalID: -3687602496079464652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9d21788664342e0800000000000000
+      internalID: -2142791582941521445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe96344730566160800000000000000
+      internalID: 7018385267601350384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faaf55291b0bb9a10800000000000000
+      internalID: 1917320343087086255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafd7cc3e3ade7ba0800000000000000
+      internalID: -6089189685315772502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bba397a3eb02abf0800000000000000
+      internalID: -314675951565558864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3318e1f5895cf7fa0800000000000000
+      internalID: -5800700536808373965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1be0f2b84b6b8c0800000000000000
+      internalID: -3983798310479679007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34f5aaceb9c6e280800000000000000
+      internalID: -9014295782854626241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_17
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5288e9508ecabed90800000000000000
+      internalID: -7067365077701195739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4471e3f171adca0800000000000000
+      internalID: -5991450931309886240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce1d14062173eba0800000000000000
+      internalID: -6060876265418842428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92a2cdce9b26a7d0800000000000000
+      internalID: -2907588548364164451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8406d103ff1441bf0800000000000000
+      internalID: -354585906375729080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01453bda97c85ed0800000000000000
+      internalID: -2424968931422420723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_23
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b56ccadab4ca700800000000000000
+      internalID: 552900063559834478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04b24b842c49df10800000000000000
+      internalID: 2294949204960916495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0579a4f5bf3178620800000000000000
+      internalID: 2776209665653643088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710d0f36835da75e0800000000000000
+      internalID: -1910980653693743081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_27
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854dc16b9ef101120800000000000000
+      internalID: 2382439291522176088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd94615d886f63c60800000000000000
+      internalID: 7797690872389585371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_29
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed10a1c77a62cb00800000000000000
+      internalID: 847356742481223136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f81c304e89b1070800000000000000
+      internalID: 8078218461702098748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3617aae77a3dd00f0800000000000000
+      internalID: -1149029613571509917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6599cccae5539d0800000000000000
+      internalID: -2795223897453537613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9132509898ebad530800000000000000
+      internalID: 3880623526851715865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d279714f96a3e90800000000000000
+      internalID: -7045202169978999449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_35
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be388e35d7d4c000800000000000000
+      internalID: 55406406312410805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a86dcc21c3f0390800000000000000
+      internalID: -7849989574039795051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1788d9cb8a960010800000000000000
+      internalID: 1154780279644653340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff5a9c1fff8cf010800000000000000
+      internalID: 1224011524597243893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_39
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61442a10bb0fee0f0800000000000000
+      internalID: -1085665774172748778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8174fbc84ab36af60800000000000000
+      internalID: 8045183362265990936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_41
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d43771cbb776020800000000000000
+      internalID: 2334970979592392054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f5b3c092b2d08e0800000000000000
+      internalID: -1725675626914160889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f205d2a10f295f0800000000000000
+      internalID: -751274192597405885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8e055e49f1d1d50800000000000000
+      internalID: 6709553744214812889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9168a41950fdac0800000000000000
+      internalID: -3828335036662933036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecbc704487d9b440800000000000000
+      internalID: 4952226228288142560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d6c6a268fa467b0800000000000000
+      internalID: -5231863876325446303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
