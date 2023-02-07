@@ -9,11 +9,11 @@ namespace PixelCrew.Components
         [SerializeField] private GameObject _coinToAdd;
         public void AddMoney()
         {
-            if (_coinToAdd.GetComponent<SpriteRenderer>().sprite.name == "Coins_0")
+            if (_coinToAdd.GetComponent<SpriteRenderer>().sprite.name == "Coins_0" || _coinToAdd.GetComponent<SpriteRenderer>().sprite.name == "Coins_1" || _coinToAdd.GetComponent<SpriteRenderer>().sprite.name == "Coins_2" || _coinToAdd.GetComponent<SpriteRenderer>().sprite.name == "Coins_3")
             {
                 smoney++;
             }
-            else if (_coinToAdd.GetComponent<SpriteRenderer>().sprite.name == "Coins_4")
+            else if (_coinToAdd.GetComponent<SpriteRenderer>().sprite.name == "Coins_4" || _coinToAdd.GetComponent<SpriteRenderer>().sprite.name == "Coins_5" || _coinToAdd.GetComponent<SpriteRenderer>().sprite.name == "Coins_6" || _coinToAdd.GetComponent<SpriteRenderer>().sprite.name == "Coins_7")
             {
                 smoney += 10;
             }
