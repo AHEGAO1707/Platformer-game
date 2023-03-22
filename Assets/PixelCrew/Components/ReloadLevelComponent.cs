@@ -7,8 +7,7 @@ namespace PixelCrew.Components
     { 
         public void Reload()
         {
-            Debug.Log("Вы погибли и потеряли " + AddMoneyComponent.smoney + " денег");
-            AddMoneyComponent.smoney = 0;
+            Debug.Log("Вы погибли");
             Debug.Log("Reloading scene");
             var scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6063614741206661226}
   - component: {fileID: 6516308893067153570}
   m_Layer: 0
-  m_Name: Palm1
+  m_Name: PalmStraight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,12 +96,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _frameRate: 10
-  _loop: 1
-  _sprites:
-  - {fileID: 8683632313750085214, guid: bfae07ed8dc675141b48968ce02d91e3, type: 3}
-  - {fileID: 262518517033693272, guid: bfae07ed8dc675141b48968ce02d91e3, type: 3}
-  - {fileID: 762285979657935423, guid: bfae07ed8dc675141b48968ce02d91e3, type: 3}
-  - {fileID: 1400697303485121525, guid: bfae07ed8dc675141b48968ce02d91e3, type: 3}
-  _onComplete:
-    m_PersistentCalls:
-      m_Calls: []
+  _clips:
+  - _name: idle
+    _sprites:
+    - {fileID: 8683632313750085214, guid: bfae07ed8dc675141b48968ce02d91e3, type: 3}
+    - {fileID: 262518517033693272, guid: bfae07ed8dc675141b48968ce02d91e3, type: 3}
+    - {fileID: 762285979657935423, guid: bfae07ed8dc675141b48968ce02d91e3, type: 3}
+    - {fileID: 1400697303485121525, guid: bfae07ed8dc675141b48968ce02d91e3, type: 3}
+    _loop: 1
+    _allowNextClip: 0
+    _onComplete:
+      m_PersistentCalls:
+        m_Calls: []

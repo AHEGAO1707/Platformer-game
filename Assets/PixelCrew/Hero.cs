@@ -16,13 +16,18 @@ namespace PixelCrew
         [SerializeField] private float _groundCheckRadius;
         [SerializeField] private Vector3 _groundCheckPositionDelta;
 
+        [SerializeField] private SpawnComponent _footStepParticles;
+        [SerializeField] private SpawnComponent _jumpStepParticles;
+        [SerializeField] private SpawnComponent _fallStepParticles;
+        [SerializeField] private ParticleSystem _hitParticles;
+
         private Collider2D[] _interactionResult = new Collider2D[1];
         private Rigidbody2D _rigidbody;
         private Vector2 _direction;
         private Animator _animator;
-        private SpriteRenderer _sprite;
         private bool _isGrounded;
         private bool _allowDoubleJump;
+        private bool _isJumping;
 
         private static readonly int s_isGroundKey = Animator.StringToHash("is-ground");
         private static readonly int s_isRunning = Animator.StringToHash("is-running");
@@ -30,11 +35,12 @@ namespace PixelCrew
 
         private static readonly int Hit = Animator.StringToHash("hit");
 
+        private int _coins;
+
         private void Awake()
         {
             _rigidbody = GetComponent<Rigidbody2D>();
             _animator = GetComponent<Animator>(); 
-            _sprite = GetComponent<SpriteRenderer>();
         }
 
         public void SetDirection(Vector2 direction)
@@ -80,12 +86,18 @@ namespace PixelCrew
             var yVelocity = _rigidbody.velocity.y;
             var isJumpPressing = _direction.y > 0;
 
-            if (_isGrounded) _allowDoubleJump = true;
+            if (_isGrounded)
+            {
+                _allowDoubleJump = true;
+                _isJumping = false;
+            }
+
             if (isJumpPressing)
             {
+                _isJumping = true;
                 yVelocity = CalculateJumpVelocity(yVelocity);
             }
-            else if (_rigidbody.velocity.y > 0)
+            else if (_rigidbody.velocity.y > 0 && _isJumping)
             {
                 yVelocity *= 0.5f;
             }
@@ -113,14 +125,14 @@ namespace PixelCrew
         {
             if (_direction.x > 0)
             {
-                _sprite.flipX = false;
+                transform.localScale = Vector3.one;
             }
             else if (_direction.x < 0)
             {
-                _sprite.flipX = true;
+                transform.localScale = new Vector3(-1, 1, 1);
             }
         }
-
+         
         private bool IsGrounded()
         {
             var hit = Physics2D.CircleCast(transform.position + _groundCheckPositionDelta, _groundCheckRadius, Vector2.down, 0, _groundLayer);
@@ -138,10 +150,35 @@ namespace PixelCrew
             Debug.Log("Something!");
         }
 
+        public void AddCoins(int coins)
+        {
+            _coins += coins;
+            Debug.Log($"{coins} монет добавлено. Всего монет: {_coins}");
+        }
+
         public void TakeDamage()
         {
+            _isJumping = false;
             _animator.SetTrigger(Hit);
             _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, _damageJumpSpeed);
+
+            if (_coins> 0 )
+            {
+                SpawnCoins();
+            }
+        }
+         
+        private void SpawnCoins()
+        {
+            var numCoinsToDispose = Math.Min(_coins, 5);
+            _coins -= numCoinsToDispose;
+
+            var burst = _hitParticles.emission.GetBurst(0);
+            burst.count = numCoinsToDispose;
+            _hitParticles.emission.SetBurst(0, burst);
+
+            _hitParticles.gameObject.SetActive(true);
+            _hitParticles.Play();
         }
 
         public void Interact()
@@ -158,5 +195,27 @@ namespace PixelCrew
             }
         }
 
+        public void SpawnFootDust()
+        {
+            _footStepParticles.Spawn();
+        }
+
+        public void SpawnJumpDust()
+        {
+            _jumpStepParticles.Spawn();
+        }
+
+
+        //не работает из-за того, что аниматор падения бесконечный, а анимация проигрывается бесконечно. не знаю как зафиксировать момент столкновения героя с землей
+        //анимация проигрывается в самом начале падения, так как анимация падения - очень быстрая - 2 кадра всего
+        public void SpawnFallDust()
+        {
+            Rigidbody2D rb = GetComponent<Rigidbody2D>();
+            Debug.Log(rb.velocity.y);                 //для отладки, чтобы понять на какой велосити (дабл джамп) надо рисовать анимацию
+            if (rb.velocity.y < -6)                 //приблизительно на -6
+            {
+                _fallStepParticles.Spawn();
+            }
+        }
     }
 }
