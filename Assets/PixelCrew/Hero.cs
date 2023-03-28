@@ -78,6 +78,14 @@ namespace PixelCrew
             _animator.SetBool(s_isRunning, _direction.x != 0);
             _animator.SetFloat(s_verticalVelocity, _rigidbody.velocity.y);
 
+            if (isGrounded)
+            {
+                if (yVelocity < -14)
+                {
+                    _fallStepParticles.Spawn();
+                }
+            }
+
             UpdateSpriteDirection();
         }
 
@@ -116,6 +124,7 @@ namespace PixelCrew
             } else if (_allowDoubleJump)
             {
                 yVelocity = _jumpSpeed;
+                SpawnJumpDust();
                 _allowDoubleJump = false;
             }
             return yVelocity;   
@@ -205,17 +214,9 @@ namespace PixelCrew
             _jumpStepParticles.Spawn();
         }
 
-
-        //не работает из-за того, что аниматор падения бесконечный, а анимация проигрывается бесконечно. не знаю как зафиксировать момент столкновения героя с землей
-        //анимация проигрывается в самом начале падения, так как анимация падения - очень быстрая - 2 кадра всего
         public void SpawnFallDust()
         {
-            Rigidbody2D rb = GetComponent<Rigidbody2D>();
-            Debug.Log(rb.velocity.y);                 //для отладки, чтобы понять на какой велосити (дабл джамп) надо рисовать анимацию
-            if (rb.velocity.y < -6)                 //приблизительно на -6
-            {
-                _fallStepParticles.Spawn();
-            }
+            _fallStepParticles.Spawn();
         }
     }
 }
