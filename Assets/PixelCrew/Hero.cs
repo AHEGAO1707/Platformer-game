@@ -1,5 +1,6 @@
 ﻿using PixelCrew.Components;
 using System;
+using System.Collections;
 using UnityEngine;
 
 namespace PixelCrew
@@ -204,12 +205,31 @@ namespace PixelCrew
             }
         }
 
+        public void BecomeInvisible(float time)
+        {
+            StartCoroutine(WaitInvasibilityCoroutine(time));
+        }
+
+        IEnumerator WaitInvasibilityCoroutine(float time)
+        {
+            GetComponent<SpriteRenderer>().enabled = false;
+            yield return new WaitForSecondsRealtime(time);
+            for (int i = 0; i < 5; i++)
+            {
+                GetComponent<SpriteRenderer>().enabled = true;
+                yield return new WaitForSecondsRealtime(0.4f);
+                GetComponent<SpriteRenderer>().enabled = false;
+                yield return new WaitForSecondsRealtime(0.4f);
+            }
+            GetComponent<SpriteRenderer>().enabled = true;
+        }
+
         public void SpawnFootDust()
         {
             _footStepParticles.Spawn();
         }
 
-        public void SpawnJumpDust()
+        public void SpawnJumpDust() 
         {
             _jumpStepParticles.Spawn();
         }
