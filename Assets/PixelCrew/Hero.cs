@@ -1,6 +1,9 @@
 ﻿using PixelCrew.Components;
+using PixelCrew.Utils;
 using System;
 using System.Collections;
+using UnityEditor;
+using UnityEditor.Animations;
 using UnityEngine;
 
 namespace PixelCrew
@@ -10,6 +13,10 @@ namespace PixelCrew
         [SerializeField] private float _speed;
         [SerializeField] private float _jumpSpeed;
         [SerializeField] private float _damageJumpSpeed;
+        [SerializeField] private float _slamDownVelocity;
+
+        [SerializeField] private int _damage;
+
         [SerializeField] private LayerMask _groundLayer;
         [SerializeField] private float _interactionRadius;
         [SerializeField] private LayerMask _interactionLayer;
@@ -17,10 +24,17 @@ namespace PixelCrew
         [SerializeField] private float _groundCheckRadius;
         [SerializeField] private Vector3 _groundCheckPositionDelta;
 
+        [SerializeField] private AnimatorController _armed;
+        [SerializeField] private AnimatorController _disarmed;
+
+        [SerializeField] private CheckCircleOverlap _attackRange;
+
+        [Space] [Header("Particles")]
         [SerializeField] private SpawnComponent _footStepParticles;
         [SerializeField] private SpawnComponent _jumpStepParticles;
         [SerializeField] private SpawnComponent _fallStepParticles;
         [SerializeField] private ParticleSystem _hitParticles;
+        [SerializeField] private SpawnComponent _swordHitParticles;
 
         private Collider2D[] _interactionResult = new Collider2D[1];
         private Rigidbody2D _rigidbody;
@@ -33,10 +47,12 @@ namespace PixelCrew
         private static readonly int s_isGroundKey = Animator.StringToHash("is-ground");
         private static readonly int s_isRunning = Animator.StringToHash("is-running");
         private static readonly int s_verticalVelocity = Animator.StringToHash("vertical-velocity");
-
         private static readonly int Hit = Animator.StringToHash("hit");
+        private static readonly int AttackKey = Animator.StringToHash("attack");
 
         private int _coins;
+
+        private bool _isArmed;
 
         private void Awake()
         {
@@ -79,14 +95,6 @@ namespace PixelCrew
             _animator.SetBool(s_isRunning, _direction.x != 0);
             _animator.SetFloat(s_verticalVelocity, _rigidbody.velocity.y);
 
-            if (isGrounded)
-            {
-                if (yVelocity < -14)
-                {
-                    _fallStepParticles.Spawn();
-                }
-            }
-
             UpdateSpriteDirection();
         }
 
@@ -122,6 +130,7 @@ namespace PixelCrew
             if (_isGrounded)
             {
                 yVelocity += _jumpSpeed;
+                SpawnJumpDust();
             } else if (_allowDoubleJump)
             {
                 yVelocity = _jumpSpeed;
@@ -149,11 +158,13 @@ namespace PixelCrew
             return hit.collider != null;
         }
 
+#if UNITY_EDITOR   //в юните эдиторе будет компилироваться - в других сборках -- нет (там нету хандлес)
         private void OnDrawGizmos()
         {
-            Gizmos.color = IsGrounded() ? Color.green : Color.red;
-            Gizmos.DrawSphere(transform.position, 0.3f);
+            Handles.color = IsGrounded() ? HandlesUtils.TransparentGreen : HandlesUtils.TransparentRed;
+            Handles.DrawSolidDisc(transform.position + _groundCheckPositionDelta, Vector3.forward, _groundCheckRadius);
         }
+#endif
 
         public void SaySomething() 
         {
@@ -224,6 +235,18 @@ namespace PixelCrew
             GetComponent<SpriteRenderer>().enabled = true;
         }
 
+        private void OnCollisionEnter2D(Collision2D other)
+        {
+            if (other.gameObject.IsInLayer(_groundLayer))
+            {
+                var contact = other.contacts[0];
+                if (contact.relativeVelocity.y >= _slamDownVelocity)
+                {
+                    SpawnFallDust();
+                }
+            }
+        }
+
         public void SpawnFootDust()
         {
             _footStepParticles.Spawn();
@@ -237,6 +260,32 @@ namespace PixelCrew
         public void SpawnFallDust()
         {
             _fallStepParticles.Spawn();
+        }
+
+        public void Attack()
+        {
+            if (!_isArmed) return;
+            _animator.SetTrigger(AttackKey);
+        }
+
+        public void OnAttack()
+        {
+            _swordHitParticles.Spawn();  //партиклы удары меча
+            var gos = _attackRange.GetObjectsInRange();
+            foreach (var go in gos)
+            {
+                var hp = go.GetComponent<HealthComponent>();
+                if (hp != null && go.CompareTag("Enemy"))
+                {
+                    hp.ModifyHealth(-_damage);
+                }
+            }
+        }
+
+        public void ArmHero()
+        {
+            _isArmed = true;
+            _animator.runtimeAnimatorController = _armed;
         }
     }
 }

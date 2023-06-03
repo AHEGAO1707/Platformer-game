@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 7600107685039128106}
   - component: {fileID: 7600107685039128104}
   - component: {fileID: 7600107685039128111}
-  - component: {fileID: 7600107685039128101}
-  - component: {fileID: 7600107685039128105}
+  - component: {fileID: 3642266020514754922}
+  - component: {fileID: 8569970783436277048}
   m_Layer: 0
   m_Name: HealthPotion
   m_TagString: Untagged
@@ -166,7 +166,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &7600107685039128101
+--- !u!114 &3642266020514754922
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,29 +175,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 7600107685039128110}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f007704db78e8144495dcc193b01eb4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _damage: 0
-  _heal: 5
---- !u!114 &7600107685039128105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7600107685039128110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32b10fe1ddd884249be8474a46dea534, type: 3}
+  m_Script: {fileID: 11500000, guid: 3470d7b5b1e67024eb4f8c63afa2f407, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _tag: Player
   _action:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7600107685039128101}
-        m_MethodName: ApplyHeal
+      - m_Target: {fileID: 8569970783436277048}
+        m_MethodName: Apply
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -229,3 +215,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &8569970783436277048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7600107685039128110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c096aa72b8dea441a3346717244a8dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hpDelta: 5
