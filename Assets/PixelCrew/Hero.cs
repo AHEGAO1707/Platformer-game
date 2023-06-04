@@ -268,7 +268,7 @@ namespace PixelCrew
             _animator.SetTrigger(AttackKey);
         }
 
-        public void OnAttack()
+        public void SpawnAttack()
         {
             _swordHitParticles.Spawn();  //партиклы удары меча
             var gos = _attackRange.GetObjectsInRange();
