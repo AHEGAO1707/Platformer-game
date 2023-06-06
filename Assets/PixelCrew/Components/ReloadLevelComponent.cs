@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using PixelCrew.Model;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace PixelCrew.Components
@@ -7,8 +8,9 @@ namespace PixelCrew.Components
     { 
         public void Reload()
         {
-            Debug.Log("Вы погибли");
-            Debug.Log("Reloading scene");
+            var session = FindObjectOfType<GameSession>();
+            Destroy(session.gameObject);
+
             var scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
         }
