@@ -43,6 +43,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: TileMap
+    uniqueID: 2543258369
+    locked: 0
   - name: Level
     uniqueID: 235549109
     locked: 0

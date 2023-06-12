@@ -1,4 +1,5 @@
 ﻿using PixelCrew.Components;
+using PixelCrew.Components.Utils;
 using PixelCrew.Model;
 using PixelCrew.Utils;
 using System;
@@ -20,12 +21,15 @@ namespace PixelCrew.Creatures
         [SerializeField] private LayerMask _interactionLayer;
 
 
+        [SerializeField] private Cooldown _throwCooldown;
         [SerializeField] private AnimatorController _armed;
         [SerializeField] private AnimatorController _disarmed;
 
         [Space] [Header("Particles")]
         [SerializeField] private ParticleSystem _hitParticles;
         [SerializeField] private SpawnComponent _swordHitParticles;
+
+        private static readonly int ThrowKey = Animator.StringToHash("throw");
 
         [SerializeField] private CheckCircleOverlap _interactionCheck;
         
@@ -179,6 +183,7 @@ namespace PixelCrew.Creatures
         public void ArmHero()
         {
             _session.Data.IsArmed = true;
+            _session.Data.SwordsAmount += 1;
             UpdateHeroWeapon();
             Animator.runtimeAnimatorController = _armed;
         }
@@ -186,6 +191,35 @@ namespace PixelCrew.Creatures
         private void UpdateHeroWeapon()
         {
             Animator.runtimeAnimatorController = _session.Data.IsArmed ? _armed : _disarmed;
+        }
+
+        public void OnDoThrow()
+        {
+            Particles.Spawn("Throw");
+        }
+
+        public void Throw()
+        {
+            if (!_session.Data.IsArmed)
+            {
+                Debug.Log("У меня нет меча чтобы им кидаться!");
+            }
+            else
+            {
+                if (_session.Data.SwordsAmount > 1)
+                {
+                    if (_throwCooldown.IsReady)
+                    {
+                        _session.Data.SwordsAmount -= 1;
+                        Animator.SetTrigger(ThrowKey);
+                        _throwCooldown.Reset();
+                    }
+                }
+                else
+                {
+                    Debug.Log("У меня остался последний меч! Не надо его выкидывать!");
+                }
+            }
         }
     }
 }
