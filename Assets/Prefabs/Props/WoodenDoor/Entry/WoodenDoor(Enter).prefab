@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3661919963279239703}
   m_Layer: 9
   m_Name: WoodenDoor(Enter)
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
