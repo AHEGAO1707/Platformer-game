@@ -1,2 +1,2 @@
 # Platformer-game
-My first game on Unity
+Platformer game on Unity
