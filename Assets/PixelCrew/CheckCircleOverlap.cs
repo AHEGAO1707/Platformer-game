@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEditor;
 using PixelCrew.Utils;
 using System;
-using UnityEngine.Events
+using UnityEngine.Events;
 using System.Linq;
 
 namespace PixelCrew
